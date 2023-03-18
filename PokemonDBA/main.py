@@ -47,9 +47,9 @@ async def slowbro(ctx):
                           description='Guia altamente mecanico ultra informativo sobre builds de bonecos legais')
 
     embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/portrait/Slowbro.png')
-    embed.add_field(name='anus', value='primeiro item', inline=True)
-    embed.add_field(name='anus', value='segundo item', inline=True)
-    embed.add_field(name='anus', value='terceiro item', inline=True)
+    embed.add_field(name='PLACEHOLDER', value='primeiro item', inline=True)
+    embed.add_field(name='PLACEHOLDER', value='segundo item', inline=True)
+    embed.add_field(name='PLACEHOLDER', value='terceiro item', inline=True)
 
     await ctx.send(embed=embed)
 
@@ -63,9 +63,9 @@ async def sylveon(ctx):
                           description='Guia altamente mecanico ultra informativo sobre builds de bonecos legais')
 
     embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Sylveon.png')
-    embed.add_field(name='anus', value='primeiro item', inline=True)
-    embed.add_field(name='anus', value='segundo item', inline=True)
-    embed.add_field(name='anus', value='terceiro item', inline=True)
+    embed.add_field(name='PLACEHOLDER', value='primeiro item', inline=True)
+    embed.add_field(name='PLACEHOLDER', value='segundo item', inline=True)
+    embed.add_field(name='PLACEHOLDER', value='terceiro item', inline=True)
 
     await ctx.send(embed=embed)
 
@@ -79,9 +79,9 @@ async def mime(ctx):
                           description='Guia altamente mecanico ultra informativo sobre builds de bonecos legais')
 
     embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Mr.Mime.png')
-    embed.add_field(name='anus', value='primeiro item', inline=True)
-    embed.add_field(name='anus', value='segundo item', inline=True)
-    embed.add_field(name='anus', value='terceiro item', inline=True)
+    embed.add_field(name='PLACEHOLDER', value='primeiro item', inline=True)
+    embed.add_field(name='PLACEHOLDER', value='segundo item', inline=True)
+    embed.add_field(name='PLACEHOLDER', value='terceiro item', inline=True)
 
     await ctx.send(embed=embed)
 

@@ -107,7 +107,7 @@ async def greninja(ctx):
 
     embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Greninja.png')
     embed.add_field(name='Build 1', value=buildsshow.greninja1)
-    embed.set_footer(text='Battle item: Full Heal', icon_url=items.full_heal)
+    embed.set_footer(text='Battle item: X Attack', icon_url=items.xattack)
 
     await ctx.send(embed=embed)
 

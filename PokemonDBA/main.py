@@ -118,9 +118,24 @@ async def poligono(ctx):
                           description='Guia informativo sobre o duraludon',
                           color=0xe74c3c)
     
-    embed.set_thumbnail(url='')
+    embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Duraludon.png')
     embed.add_field(name='Build 1', value=buildsshow.poligono1)
     embed.set_footer(text='Battle Item: Eject Button', icon_url=items.eject)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command()
+async def chomp(ctx):
+    print('Comando garchomp chamado')
+
+    embed = discord.Embed(title='Garchomp',
+                          description='Guia informativo sobre garchomp',
+                          color=0xe74c3c)
+
+    embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Garchomp.png')
+    embed.add_field(name='Build 1', value=buildsshow.chomp1)
+    embed.set_footer(text='Battle item: Full Heal', icon_url=items.full_heal)
 
     await ctx.send(embed=embed)
 
@@ -156,6 +171,23 @@ async def eldegoss(ctx):
     embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Eldegoss.png')
     embed.add_field(name='build 1', value=buildsshow.eldegoss1, inline=True)
     embed.set_footer(text='Battle Item: Eject Button', icon_url=items.eject)
+
+    await ctx.send(embed=embed)
+
+
+# Speedsters
+
+@bot.command()
+async def dodrio(ctx):
+    print('Comando dodrio chamado')
+
+    embed = discord.Embed(title='Dodrio',
+                          description='Guia informativo sobre dodrio',
+                          color=0x3498db)
+
+    embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Dodrio.png')
+    embed.add_field(name='Build 1', value=buildsshow.dodrio1)
+    embed.set_footer(text='Battle item: Full Heal', icon_url=items.full_heal)
 
     await ctx.send(embed=embed)
 

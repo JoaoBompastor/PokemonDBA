@@ -1,3 +1,5 @@
+# build dia 3/24
+
 # imports
 
 import discord
@@ -45,6 +47,36 @@ async def slowbro(ctx):
     await ctx.send(embed=embed)
 
 
+@bot.command()
+async def goodra(ctx):
+    print('Comando goodra chamado')
+
+    embed = discord.Embed(title='Goodra',
+                          description='Guia informativo sobre Goodra',
+                          color=0x2ecc71)
+
+    embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Goodra.png')
+    embed.add_field(name='Build 1', value=buildsshow.goodra1)
+    embed.set_footer(text='Battle item: Potion', icon_url=items.potion)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command()
+async def greedent(ctx):
+    print('Comando greedent chamado')
+
+    embed = discord.Embed(title='Greedent',
+                          description='Guia informativo sobre o theodor do alvin e os esquilos',
+                          color=0x2ecc71)
+    
+    embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Greedent.png')
+    embed.add_field(name='Build 1', value=buildsshow.theodor1)
+    embed.set_footer(text='Battle item: X Speed', icon_url=items.xspeed)
+
+    await ctx.send(embed=embed)
+
+
 # Attackers
 
 @bot.command()
@@ -60,7 +92,22 @@ async def sylveon(ctx):
     embed.add_field(name='Build 1', value=buildsshow.sylveon1, inline=True)
     embed.add_field(name='Build 2', value=buildsshow.sylveon2, inline=True)
     embed.add_field(name='Build do Aramaki', value=buildsshow.sylveon_aramaki, inline=True)
-    embed.set_footer(text='Battle Item: Eject Button', icon_url=items.eject)
+    embed.set_footer(text='Battle item: Eject Button', icon_url=items.eject)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command()
+async def greninja(ctx):
+    print('Comando greninja chamado')
+
+    embed = discord.Embed(title='Greninja',
+                          description='É o guizas',
+                          color=0xe74c3c)
+
+    embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Greninja.png')
+    embed.add_field(name='Build 1', value=buildsshow.greninja1)
+    embed.set_footer(text='Battle item: Full Heal', icon_url=items.full_heal)
 
     await ctx.send(embed=embed)
 
@@ -70,12 +117,42 @@ async def gardevoir(ctx):
     print('Comando gardevoir chamado')
 
     embed = discord.Embed(title='gardevoir',
-                        description='Guia informativo sobre gardevoir',
+                        description='Guia informativo sobre Gardevoir',
                         color=0xe74c3c)
     
     embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Gardevoir.png')
     embed.add_field(name='Build 1', value=buildsshow.gardevoir1, inline=True)
-    embed.set_footer(text='Battle Item: Eject Button', icon_url=items.eject)
+    embed.set_footer(text='Battle item: Eject Button', icon_url=items.eject)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command()
+async def dragonite(ctx):
+    print('Comando dragonite chamado')
+
+    embed = discord.Embed(title='Dragonite',
+                          description='Guia informativo sobre Dragonite',
+                          color=0xe74c3c)
+
+    embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Dragonite.png')
+    embed.add_field(name='Build 1', value=buildsshow.dragonite1)
+    embed.set_footer(text='Battle item: X Attack', icon_url=items.xattack)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command()
+async def espeon(ctx):
+    print('Comando espeon chamado')
+
+    embed = discord.Embed(title='Espeon',
+                          description='Guia informativo sobre Espeon',
+                          color=0xe74c3c)
+
+    embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Espeon.png')
+    embed.add_field(name='Build 1', value=buildsshow.espeon1)
+    embed.set_footer(text='Battle item: Eject Button', icon_url=items.eject)
 
     await ctx.send(embed=embed)
 
@@ -85,7 +162,7 @@ async def glaceon(ctx):
     print('Comando glaceon chamado')
 
     embed = discord.Embed(title='glaceon',
-                          description='Guia informativo sobre glaveon',
+                          description='Guia informativo sobre Glaceon',
                           color=0xe74c3c)
     
     embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Glaceon.png')
@@ -105,7 +182,7 @@ async def dragapult(ctx):
     
     embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Dragapult.png')
     embed.add_field(name='Build 1', value=buildsshow.dragapult1)
-    embed.set_footer(text='Battle Item: X Attack')
+    embed.set_footer(text='Battle item: X Attack')
 
     await ctx.send(embed=embed)
 
@@ -120,7 +197,7 @@ async def poligono(ctx):
     
     embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Duraludon.png')
     embed.add_field(name='Build 1', value=buildsshow.poligono1)
-    embed.set_footer(text='Battle Item: Eject Button', icon_url=items.eject)
+    embed.set_footer(text='Battle item: Eject Button', icon_url=items.eject)
 
     await ctx.send(embed=embed)
 
@@ -135,6 +212,21 @@ async def chomp(ctx):
 
     embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Garchomp.png')
     embed.add_field(name='Build 1', value=buildsshow.chomp1)
+    embed.set_footer(text='Battle item: Full Heal', icon_url=items.full_heal)
+
+    await ctx.send(embed=embed)
+
+
+@bot.command()
+async def gengar(ctx):
+    print('Comando gengar chamado')
+
+    embed = discord.Embed(title='Gengar',
+                          description='Guia informativo sobre Gengar',
+                          color=0xe74c3c)
+
+    embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Gengar.png')
+    embed.add_field(name='Build 1', value=buildsshow.gengar1)
     embed.set_footer(text='Battle item: Full Heal', icon_url=items.full_heal)
 
     await ctx.send(embed=embed)
@@ -155,7 +247,7 @@ async def mime(ctx):
     embed.add_field(name='Build 1', value=buildsshow.mime1, inline=True)
     embed.add_field(name='Build 2', value=buildsshow.mime2, inline=True)
     embed.add_field(name='Build do Aramaki', value=buildsshow.mime_aramaki, inline=True)
-    embed.set_footer(text='Battle Item: X speed', icon_url=items.xspeed)
+    embed.set_footer(text='Battle item: X speed', icon_url=items.xspeed)
 
     await ctx.send(embed=embed)
 
@@ -170,7 +262,7 @@ async def eldegoss(ctx):
 
     embed.set_thumbnail(url='https://d275t8dp8rxb42.cloudfront.net/pokemon/thumbnail/Eldegoss.png')
     embed.add_field(name='build 1', value=buildsshow.eldegoss1, inline=True)
-    embed.set_footer(text='Battle Item: Eject Button', icon_url=items.eject)
+    embed.set_footer(text='Battle item: Eject Button', icon_url=items.eject)
 
     await ctx.send(embed=embed)
 
@@ -234,7 +326,7 @@ async def info(ctx):
     embed.set_footer(text='footer')
 
     await ctx.send(embed=embed)
-    await ctx.send('novos: eldegoss, gardevoir, glaceon. poligono, dragapult')
+    await ctx.send('novos: gengar, dodrio, dragonite, chomp, poligono, espeon, greedent, goodra, greninja')
 
 
 bot.run(TOKEN)

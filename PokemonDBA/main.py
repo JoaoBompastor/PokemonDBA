@@ -474,7 +474,7 @@ async def info(ctx):
     embed.set_footer(text='footer')
 
     await ctx.send(embed=embed)
-    await ctx.send('novos: mamute, mew, scyther, scizor, pikachu, snorlax\najustes: acesso ao sistema de cores melhorado')
+    await ctx.send('novos: mamute, mew, scyther, scizor, pikachu, snorlax, sableye\najustes: acesso ao sistema de cores melhorado')
 
 
 if __name__ == '__main__':
